@@ -50,7 +50,7 @@ int main()
 	  }
 	}
   }
-  printf("\n---------------------------Multyplication of Two Matrix-------------------------\n\n");
+  printf("\n---------------------------Multiplication of Two Matrix-------------------------\n\n");
   for(row=0;row<3;row++)
   {
     for(col=0;col<3;col++)
