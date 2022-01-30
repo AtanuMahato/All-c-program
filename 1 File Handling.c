@@ -1,5 +1,5 @@
 #include<stdio.h>
-// #include<conio.h>
+#include<conio.h>
 #include<string.h>
 int main()
 {
@@ -17,9 +17,9 @@ int main()
     for(i=0;i<count;i++)
     {
       fputc(ch[i],fp);
-	}
-	printf("Data Inserted");
-	fclose(fp);
+    }
+     printf("Data Inserted");
+     fclose(fp);
   }
   getch();
 }
