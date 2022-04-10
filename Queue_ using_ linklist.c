@@ -52,19 +52,13 @@ void enqueue()
   }
   else
   {
-	struct queue* p = front;
-	while(p->link!=NULL)
-	{
-	  p = p->link;
-	}
-	p->link = new_ele;
+        rear->link = new_ele;
 	rear = new_ele;
   }
 }
 void dequeue()
 {
   struct queue* p = front;
-  if(front==NULL)
   {
 	printf("Queue is empty\n");
   }
