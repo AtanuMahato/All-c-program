@@ -17,6 +17,7 @@ int main()
 	  printf("\nPress 1 for enqueue\n");
 	  printf("Press 2 for dequeue\n");
 	  printf("Press 3 for display\n");
+	  printf("Press 4 for exit\n");
 	  scanf("%d",&n);
 	  switch(n)
 	  {
@@ -34,6 +35,10 @@ int main()
 		  {
 			display();
 			break;
+		  }
+		  case 4:
+		  {
+			  exit(0);
 		  }
       }
    }
