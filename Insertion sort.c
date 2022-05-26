@@ -12,7 +12,7 @@ int main()
   }
   for(i=1;i<n;i++)
   {
-    array[i]==temp;
+    temp = array[i];
     j=i-1;
     while((temp<array[j])&&(j>=0))
     {
