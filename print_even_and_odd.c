@@ -18,9 +18,6 @@ print_even_num(int range){
 	 }
 	 
    }
-   if(num%2 == 0){
-
-   }
 }
 int main(){
 
