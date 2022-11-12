@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<Windows.h>
 void gotoxy(int x,int y){
   COORD c;
